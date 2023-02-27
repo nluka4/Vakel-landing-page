@@ -1,0 +1,865 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+:root {
+    --font-family: "Source Serif Pro", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 15vh;
+    background-color: #f4f1ec;
+    display: flex;
+    justify-content: center;
+}
+
+.h-logo {
+    height: 100%;
+}
+
+.sections {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(153, 15, 15, 0.8);
+}
+
+.header {
+    position: relative;
+    z-index: 10;
+    font-family: --font-family;
+    font-weight: 500;
+    font-size: 54px;
+    color: white;
+    margin-top: 0vh;
+}
+
+.h-space {
+    margin-top: 3vh;
+}
+
+button {
+    position: relative;
+    z-index: 10;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: --font-family;
+    font-weight: 500;
+    padding: 15px 25px;
+    background-color: white;
+    border: unset;
+    cursor: pointer;
+}
+
+#btn1 {
+    position: relative;
+    top: 15vh;
+}
+
+#section1 {
+    background-image: url("vakel slike/bg-section1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#overlay1 {
+    background-color: rgba(153, 15, 15, 0.8);
+    padding: 15vh;
+}
+
+/*----- Section2 -----*/
+
+#section2 {
+    background-image: url("vakel slike/bg-section2.jpg");
+}
+
+#overlay2 {
+    background-color: rgba(244, 241, 236, 0.5);
+}
+
+.section2-div {
+    width: 100%;
+    display: flex;
+}
+
+#div1,
+#div2 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div2 {
+    display: flex;
+}
+
+.subDiv {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+#col1 {
+    background-color: #4a4a4a;
+}
+
+#col2 {
+    background-color: #990f0f;
+}
+
+.subDiv-txt {
+    font-family: --font-family;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    height: auto;
+    padding: 0 12.5%;
+}
+
+#sntc1 {
+    color: #e6d0af;
+}
+
+#sntc2 {
+    color: #fdfefe;
+}
+
+.header-sec2 {
+    font-family: var(--font-family);
+    font-size: 64px;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    z-index: 10;
+}
+
+/*----- Section 3 -----*/
+
+#section3 {
+    background-image: url("vakel slike/bg-section3.jpg");
+    background-position: top;
+}
+
+#section2-header {
+    height: 20%;
+    background-color: rgba(244, 241, 236, 0.58);
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.section3-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.info-cont1,
+.info-cont2,
+.info-cont3 {
+    height: 55%;
+    padding: 0 50px;
+}
+
+.info-cont1 {
+    background-color: #990f0f;
+}
+
+.info-cont2 {
+    background-color: #dabf94;
+}
+
+.info-cont3 {
+    background-color: #e7d0ae;
+}
+
+.segment-overlay1,
+.segment-overlay2,
+.segment-overlay3 {
+    height: 45%;
+}
+
+.segment-overlay1 {
+    background-color: rgba(153, 15, 15, 0.5);
+}
+
+.segment-overlay2 {
+    background-color: rgba(218, 191, 148, 0.5);
+}
+
+.segment-overlay3 {
+    background-color: rgba(231, 208, 174, 0.5);
+}
+
+#sec3-div1 {
+    width: 40%;
+}
+
+#sec3-div2 {
+    width: 35%;
+}
+
+#sec3-div3 {
+    width: 25%;
+}
+
+.header-sec3 {
+    font-family: var(--font-family);
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.sec3-h {
+    font-size: 36px;
+    color: #fffdfd;
+    text-align: center;
+    position: relative;
+    top: 5vh;
+}
+
+.sec3-hB {
+    color: black;
+}
+
+.sec3-p {
+    color: black;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+    top: 10vh;
+}
+
+.white-p {
+    color: white;
+}
+
+/*----- Section 4 -----*/
+
+#section4 {
+    display: flex;
+}
+
+.sec4-img {
+    height: 100%;
+    width: 45%;
+}
+
+.sec4-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 100vh;
+}
+
+.sec4-overlay {
+    background-color: rgba(244, 241, 236, 0.5);
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 10000;
+}
+
+#section4 .contact-container {
+    height: 100%;
+    width: 55%;
+}
+
+.sec3-header {
+    align-items: center;
+    background-color: #990f0f;
+    display: flex;
+    height: 30%;
+    padding: 0% 10%;
+}
+
+.sec3-header h2 {
+    color: #f4f1ec;
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-container {
+    align-items: center;
+    background-color: #f4f1ec;
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.userData {
+    border: unset;
+    border-bottom: 1px #ccac7d solid;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px #ccac7d solid;
+    color: #4b4b4b;
+    font-family: var(--font-family);
+    font-size: 24px;
+    margin-left: 1vw;
+    outline: none;
+    width: 30vw;
+}
+
+form label img {
+    display: block;
+}
+
+.sec4-input {
+    margin-top: 4vh;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+}
+
+#form-btn {
+    background-color: #990f0f;
+    color: white;
+    font-size: 24px;
+    left: 50%;
+    margin-top: 5vh;
+    padding: 10px 55px;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+/*----- Section 5 -----*/
+
+#section5 {
+    display: flex;
+}
+
+.sec5-bg-container {
+    width: 50%;
+    position: relative;
+    background-image: url("vakel slike/bg-section5.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+.sec5-bg-container img {
+    position: absolute;
+    height: 10%;
+    top: 0;
+    right: 0;
+}
+
+.sec5-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(231, 208, 174, 0.5);
+}
+
+.contact-container {
+    width: 50%;
+    background-color: #f4f1ec;
+}
+
+#section5 div h2,
+#section5 h3 {
+    font-family: var(--font-family);
+    color: #990f0f;
+    font-weight: 600;
+    margin: 5vh 0;
+}
+
+#section5 div h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    padding: 0 5%;
+}
+
+#section5 h3 {
+    font-size: 18px;
+    margin-bottom: 2vh;
+}
+
+.sec5-txt {
+    font-family: var(--font-family);
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+.contact-info,
+.working-time-container,
+.social-media-container {
+    padding: 0 5%;
+    margin-top: 5vh;
+}
+
+.info-icon {
+    margin-right: 1vw;
+}
+
+/*----- Section 6 ------*/
+
+#section6 {
+    background-image: url("vakel slike/bg-section6.jpg");
+    position: relative;
+}
+
+.section6-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#overlay6 {
+    background-color: rgba(153, 15, 15, 0.65);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.header-cont {
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.footer-h,
+.footer-subheading {
+    color: white;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+.footer-h {
+    font-size: 68px;
+    font-weight: 400;
+}
+
+.footer-subheading {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.reviews-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+    letter-spacing: 1px;
+}
+
+.review {
+    border: 1px solid #e7d0ae;
+    height: 210px;
+    width: 300px;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review-txt {
+    color: white;
+    font-family: var(--font-family);
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.reviewer {
+    color: #e7d0ae;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+#section6 .section6-content img {
+    height: 10%;
+    margin-bottom: 5vh;
+}
+
+/* for devices with width of 1440px */
+@media only screen and (max-width: 1440px) {
+    .header {
+        font-size: 48px;
+    }
+    button {
+        font-size: 20px;
+    }
+
+    /*----- Section 2 -----*/
+    .subDiv-txt {
+        font-size: 28px;
+    }
+    .header-sec2 {
+        font-size: 48px;
+    }
+
+    /*----- Section 3-----*/
+    header {
+        height: 10vh;
+    }
+
+    .header {
+        font-size: 48px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .header-sec2 {
+        font-size: 48px;
+    }
+
+    .header-sec3 {
+        font-size: 48px;
+    }
+
+    .sec3-h {
+        font-size: 24px;
+    }
+
+    .sec3-p {
+        font-size: 24px;
+        top: 10vh;
+    }
+
+    /*----- Section 6 -----*/
+    .sec4-img {
+        width: 50%;
+    }
+    #section4 .contact-container {
+        width: 50%;
+    }
+
+    .sec3-header h2 {
+        font-size: 36px;
+    }
+
+    .reviews-container {
+        width: 90%;
+    }
+
+    .review {
+        width: 350px;
+    }
+
+    .review-txt {
+        font-size: 18px;
+    }
+
+    .reviewer {
+        font-size: 21px;
+    }
+}
+
+/* for devices with width of 1280px */
+@media only screen and (max-width: 1280px) {
+    header {
+        height: 25vh;
+    }
+
+    .header {
+        font-size: 40px;
+    }
+    button {
+        font-size: 18px;
+    }
+
+    /*----- Section 2 -----*/
+    #div1,
+    #div2 {
+        flex-direction: column;
+    }
+    .subDiv {
+        width: 100%;
+    }
+    .subDiv-txt {
+        font-size: 24px;
+        padding: 0 10%;
+    }
+    .header-sec2 {
+        font-size: 40px;
+    }
+
+    /*----- Section 3 -----*/
+    header {
+        height: 8vh;
+    }
+
+    .header {
+        font-size: 36px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .header-sec3 {
+        font-size: 36px;
+    }
+
+    .sec3-h {
+        font-size: 32px;
+    }
+
+    .sec3-p {
+        font-size: 20px;
+        top: 10vh;
+    }
+
+    /*----- Section 4 -----*/
+
+    .sec4-img {
+        width: 50%;
+    }
+    #section4 .contact-container {
+        width: 50%;
+    }
+
+    .sec3-header h2 {
+        font-size: 32px;
+    }
+}
+
+/* for devices with width of 720px */
+@media only screen and (max-width: 720px) {
+    header {
+        height: 15vh;
+    }
+    .header {
+        font-size: 26px;
+    }
+    .h-logo {
+        height: 100%;
+    }
+    .h-space {
+        margin-top: 2vh;
+        text-align: center;
+    }
+    button {
+        font-size: 16px;
+        padding: 18px 32px;
+    }
+
+    /*----- Section 2 ------*/
+    .subDiv-txt {
+        font-size: 21px;
+        padding: 0 5%;
+    }
+    .header-sec2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    /*----- Section 3 ------*/
+
+    .section3-container {
+        flex-direction: column;
+    }
+
+    .info-cont1,
+    .info-cont2,
+    .info-cont3 {
+        height: 100%;
+    }
+
+    .segment-overlay1,
+    .segment-overlay2,
+    .segment-overlay3 {
+        display: none;
+    }
+
+    #sec3-div1,
+    #sec3-div2,
+    #sec3-div3 {
+        width: 100%;
+        height: 33%;
+    }
+
+    #sec3-div3 {
+        height: 34%;
+    }
+
+    .sec3-p {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    /*----- Section 4 -----*/
+
+    #section4 {
+        display: block;
+    }
+
+    .sec4-img {
+        display: none;
+    }
+
+    #section4 .contact-container {
+        width: 100%;
+    }
+
+    #section4 .contact-container .form-container form {
+        width: 80%;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 55vw;
+    }
+
+    /*----- Section 5 -----*/
+
+    .sec5-bg-container {
+        display: none;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    #section5 h3 {
+        padding: 0;
+    }
+
+    #section5 div h2 {
+        text-align: center;
+    }
+
+    /*----- Section 6 -----*/
+
+    .footer-h {
+        font-size: 42px;
+    }
+
+    .footer-subheading {
+        font-size: 24px;
+    }
+
+    .reviews-container {
+        height: 60%;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .review {
+        margin-bottom: 3vh;
+    }
+}
+
+/* for devices with width of 410px */
+@media only screen and (max-width: 410px) {
+    header {
+        height: 15vh;
+    }
+    .header {
+        font-size: 24px;
+    }
+    .h-space {
+        margin-top: 1vh;
+    }
+    button {
+        font-size: 24px;
+        padding: 6px 14px;
+    }
+
+    /*----- Section 2 ------*/
+    .subDiv-txt {
+        font-size: 21px;
+        padding: 0 2%;
+    }
+    .header-sec2 {
+        font-size: 32px;
+    }
+
+    /*----- Section 3 ------*/
+    .sec3-p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    /*----- Section 4 ------*/
+
+    #section5 div h2 {
+        font-size: 36px;
+        letter-spacing: 1px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 70vw;
+        font-size: 21px;
+    }
+
+    #form-btn {
+        font-size: 24px;
+        padding: 16px 26px;
+    }
+
+    /*----- Section 6 -----*/
+
+    .footer-h {
+        font-size: 32px;
+    }
+
+    .footer-subheading {
+        font-size: 18px;
+    }
+
+    .reviews-container {
+        height: 60%;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .review {
+        margin-bottom: 3vh;
+        width: 80%;
+    }
+}
+
